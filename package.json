@@ -1,0 +1,20 @@
+{
+  "name": "wp-auto-post-utils",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "jest",
+    "clasp": "clasp",
+    "create": "clasp create",
+    "push": "clasp push",
+    "format": "prettier --write \"**/*.{js,jsx,json,ts,tsx,md,mdx,css,html,yml,yaml,scss,sass}\" --ignore-path .prettierignore",
+    "deploy": "echo $CLASPCONF_JSON >| .clasp.json && yarn build && clasp push -f",
+    "json": "echo $CLASPCONF_JSON >| .clasp.json",
+    "push:watch:win": "watch \"yarn push\" dist/"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.1",
+    "@types/google-apps-script": "^1.0.45",
+    "prettier": "^2.5.1"
+  }
+}
