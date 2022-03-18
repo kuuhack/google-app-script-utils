@@ -2,6 +2,8 @@
 
 [![Deployment](https://github.com/kuuhack/google-app-script-utils/actions/workflows/main.yml/badge.svg)](https://github.com/kuuhack/google-app-script-utils/actions/workflows/main.yml)
 
+[![MIT License](https://img.shields.io/github/license/kuuhack/google-app-script-utils)](https://github.com/kuuhack/google-app-script-utils/blob/main/LICENSE)
+
 ## Usage
 
 ### `createObjects`, `createValues`
