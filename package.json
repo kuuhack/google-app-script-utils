@@ -1,16 +1,14 @@
 {
-  "name": "wp-auto-post-utils",
+  "name": "google-app-script-utils",
   "version": "1.0.0",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
-    "test": "jest",
     "clasp": "clasp",
     "create": "clasp create",
     "push": "clasp push",
     "format": "prettier --write \"**/*.{js,jsx,json,ts,tsx,md,mdx,css,html,yml,yaml,scss,sass}\" --ignore-path .prettierignore",
     "deploy": "echo $CLASPCONF_JSON >| .clasp.json && yarn build && clasp push -f",
-    "json": "echo $CLASPCONF_JSON >| .clasp.json",
-    "push:watch:win": "watch \"yarn push\" dist/"
+    "json": "echo $CLASPCONF_JSON >| .clasp.json"
   },
   "devDependencies": {
     "@google/clasp": "^2.4.1",
