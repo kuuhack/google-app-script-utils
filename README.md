@@ -1,8 +1,13 @@
 # google-app-script-utils
 
-[![Deployment](https://github.com/kuuhack/google-app-script-utils/actions/workflows/main.yml/badge.svg)](https://github.com/kuuhack/google-app-script-utils/actions/workflows/main.yml)
-
-[![MIT License](https://img.shields.io/github/license/kuuhack/google-app-script-utils)](https://github.com/kuuhack/google-app-script-utils/blob/main/LICENSE)
+<p>
+  <a href="https://github.com/kuuhack/google-app-script-utils/actions/workflows/main.yml">
+    <img src="https://github.com/kuuhack/google-app-script-utils/actions/workflows/main.yml/badge.svg" alt="Deployment">
+  </a>
+  <a href="https://github.com/kuuhack/google-app-script-utils/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/kuuhack/google-app-script-utils" alt="MIT License">
+  </a>
+</dip
 
 ## Usage
 
