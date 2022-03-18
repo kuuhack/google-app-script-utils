@@ -7,7 +7,7 @@
   <a href="https://github.com/kuuhack/google-app-script-utils/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/kuuhack/google-app-script-utils" alt="MIT License">
   </a>
-</dip
+</p>
 
 ## Usage
 
