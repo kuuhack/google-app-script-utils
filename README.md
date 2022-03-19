@@ -1,13 +1,17 @@
-# google-app-script-utils
+# google-apps-script-utils
 
 <p>
-  <a href="https://github.com/kuuhack/google-app-script-utils/actions/workflows/main.yml">
-    <img src="https://github.com/kuuhack/google-app-script-utils/actions/workflows/main.yml/badge.svg" alt="Deployment">
+  <a href="https://github.com/kuuhack/google-apps-script-utils/actions/workflows/main.yml">
+    <img src="https://github.com/kuuhack/google-apps-script-utils/actions/workflows/main.yml/badge.svg" alt="Deployment">
   </a>
-  <a href="https://github.com/kuuhack/google-app-script-utils/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/kuuhack/google-app-script-utils" alt="MIT License">
+  <a href="https://github.com/kuuhack/google-apps-script-utils/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/kuuhack/google-apps-script-utils" alt="MIT License">
   </a>
 </p>
+
+## Description
+
+This repository has some functions to help with Google Apps Script
 
 ## Usage
 
