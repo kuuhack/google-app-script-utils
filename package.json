@@ -1,5 +1,5 @@
 {
-  "name": "google-app-script-utils",
+  "name": "google-apps-script-utils",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
@@ -12,7 +12,6 @@
   },
   "devDependencies": {
     "@google/clasp": "^2.4.1",
-    "@types/google-apps-script": "^1.0.45",
     "prettier": "^2.5.1"
   }
 }
