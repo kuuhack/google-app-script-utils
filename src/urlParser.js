@@ -47,6 +47,11 @@ function urlPath(url) {
   return URI(url).path()
 }
 
+// Get the URL path array (eg. ['some', 'directory', 'filename.png'])
+function pathArray(url) {
+  return URI(url).pathname().split('/').filter(Boolean)
+}
+
 // Get the URL directory (eg. '/some/directory')
 function urlDirectory(url) {
   return URI(url).directory()
