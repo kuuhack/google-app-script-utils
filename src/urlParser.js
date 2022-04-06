@@ -34,32 +34,35 @@ eval(
 
 // Get the URL protocol (eg. 'https' or 'http')
 function urlProtocol(url) {
-  return URI(url).protocol()
+  return console.log(`urlProtocol = %s`, URI(url).protocol())
 }
 
 // Get the URL hostname (eg. 'example.com')
 function urlHostname(url) {
-  return URI(url).hostname()
+  return console.log(`urlHostname = %s`, URI(url).hostname())
 }
 
 // Get the whole URL path (eg. '/some/directory/filename.png')
 function urlPath(url) {
-  return URI(url).path()
+  return console.log(`urlPath = %s`, URI(url).path())
 }
 
 // Get the URL path array (eg. ['some', 'directory', 'filename.png'])
 function pathArray(url) {
-  return URI(url).pathname().split('/').filter(Boolean)
+  return console.log(
+    `pathArray = %s`,
+    URI(url).pathname().split('/').filter(Boolean)
+  )
 }
 
 // Get the URL directory (eg. '/some/directory')
 function urlDirectory(url) {
-  return URI(url).directory()
+  return console.log(`urlDirectory = %s`, URI(url).directory())
 }
 
 // Get the URL file name (eg. 'filename.png')
 function urlFilename(url) {
-  return URI(url).filename()
+  return console.log(`urlFilename = %s`, URI(url).filename())
 }
 
 // Get the URL query string (eg. 'this=1&that=2')
@@ -70,22 +73,23 @@ function urlQuery(url, param) {
     const queryMap = URI(url).query(true)
     return queryMap[param]
   }
-  return URI(url).query()
+
+  return console.log(`urlQuery = %s`, URI(url).query())
 }
 
 // Get the URL hash (eg. '#section-two')
 function urlHash(url) {
-  return URI(url).hash()
+  return console.log(`urlHash = %s`, URI(url).hash())
 }
 
 // Check to see if a URL is a fully qualified URL
 function urlIsUrl(url) {
-  return URI(url).is('url')
+  return console.log(`urlIsUrl = %s`, URI(url).is('url'))
 }
 
 // Check to see if a URL is a fully qualified IP Address
 function urlIsIp(url) {
-  return URI(url).is('ip')
+  return console.log(`urlIsIp = %s`, URI(url).is('ip'))
 }
 
 // Test function to ensure that each of the above functions do what they are supposed to do.
@@ -107,9 +111,10 @@ function testURI() {
 
   // Check that each function returns the expected value
   funcs.map((test) => {
-    console.log(`${test} = %s`, test(url))
+    test(url)
   })
 
   // Extra check to see that the urlQuery function works with a query parameter argument
-  console.log(`${urlQuery} = %s`, urlQuery(url, 'it'))
+  // console.log(`${urlQuery} = %s`, urlQuery(url, 'it'))
+  urlQuery(url, 'it')
 }
