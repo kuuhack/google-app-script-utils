@@ -1,13 +1,13 @@
 /**
  * Usage
  * **************************
- *  const myFunction = () => {
- *    const sheet = SpreadsheetApp.getActiveSheet()
- *    const cell = searchCell(sheet, 'fuga')
+ * const myFunction = () => {
+ *   const sheet = SpreadsheetApp.getActiveSheet()
+ *   const cell = searchCell(sheet, 'fuga')
  *
- *    console.log(cell)
- *    // [1]
- *  }
+ *   console.log(cell)
+ *   // [1]
+ * }
  * **************************
  */
 
