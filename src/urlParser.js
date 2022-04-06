@@ -34,35 +34,50 @@ eval(
 
 // Get the URL protocol (eg. 'https' or 'http')
 function urlProtocol(url) {
-  return console.log(`urlProtocol = %s`, URI(url).protocol())
+  const protocol = URI(url).protocol()
+  console.log(`urlProtocol = %s`, protocol)
+
+  return protocol
 }
 
 // Get the URL hostname (eg. 'example.com')
 function urlHostname(url) {
-  return console.log(`urlHostname = %s`, URI(url).hostname())
+  const hostname = URI(url).hostname()
+  console.log(`urlHostname = %s`, hostname)
+
+  return hostname
 }
 
 // Get the whole URL path (eg. '/some/directory/filename.png')
 function urlPath(url) {
-  return console.log(`urlPath = %s`, URI(url).path())
+  const path = URI(url).pathname()
+  console.log(`urlPath = %s`, path)
+
+  return path
 }
 
 // Get the URL path array (eg. ['some', 'directory', 'filename.png'])
 function pathArray(url) {
-  return console.log(
-    `pathArray = %s`,
-    URI(url).pathname().split('/').filter(Boolean)
-  )
+  const path = URI(url).pathname().split('/').filter(Boolean)
+  console.log(`pathArray = %s`, path)
+
+  return path
 }
 
 // Get the URL directory (eg. '/some/directory')
 function urlDirectory(url) {
-  return console.log(`urlDirectory = %s`, URI(url).directory())
+  const directory = URI(url).directory()
+  console.log(`urlDirectory = %s`, directory)
+
+  return directory
 }
 
 // Get the URL file name (eg. 'filename.png')
 function urlFilename(url) {
-  return console.log(`urlFilename = %s`, URI(url).filename())
+  const filename = URI(url).filename()
+  console.log(`urlFilename = %s`, filename)
+
+  return
 }
 
 // Get the URL query string (eg. 'this=1&that=2')
@@ -73,23 +88,34 @@ function urlQuery(url, param) {
     const queryMap = URI(url).query(true)
     return queryMap[param]
   }
+  const query = URI(url).query()
+  console.log(`urlQuery = %s`, query)
 
-  return console.log(`urlQuery = %s`, URI(url).query())
+  return query
 }
 
 // Get the URL hash (eg. '#section-two')
 function urlHash(url) {
-  return console.log(`urlHash = %s`, URI(url).hash())
+  const hash = URI(url).hash()
+  console.log(`urlHash = %s`, hash)
+
+  return hash
 }
 
 // Check to see if a URL is a fully qualified URL
 function urlIsUrl(url) {
-  return console.log(`urlIsUrl = %s`, URI(url).is('url'))
+  const bool = URI(url).is('url')
+  console.log(`urlIsUrl = %s`, bool)
+
+  return bool
 }
 
 // Check to see if a URL is a fully qualified IP Address
 function urlIsIp(url) {
-  return console.log(`urlIsIp = %s`, URI(url).is('ip'))
+  const bool = URI(url).is('ip')
+  console.log(`urlIsIp = %s`, bool)
+
+  return
 }
 
 // Test function to ensure that each of the above functions do what they are supposed to do.
