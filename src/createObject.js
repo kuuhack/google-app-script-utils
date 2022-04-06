@@ -4,7 +4,7 @@
  * const myFunction = () => {
  * const sheet = SpreadsheetApp.getActiveSheet()
  * const values = sheet.getDataRange().getValues()
- * const object = createObjects(values)
+ * const object = createObject(values)
  *
  * console.log(object)
  * //  { hoge: 10, fuga: 20, piyo: 20 }
