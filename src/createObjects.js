@@ -1,5 +1,13 @@
 /**
  * Usage
+ * 
+ * |     | A    | B   | C         |
+ * | --- | ---- | --- | --------- |
+ * | 1   | name | age | favorite  |
+ * | 2   | hoge | 20  | curry     |
+ * | 3   | fuga | 30  | chocolate |
+ * | 4   | piyo | 40  | coffee    |
+ *
  * ***********************************
  * const myFunction = () => {
  *   const sheet = SpreadsheetApp.getActiveSheet()
