@@ -97,6 +97,7 @@ function testURI() {
     urlHostname,
     urlDirectory,
     urlPath,
+    pathArray,
     urlFilename,
     urlQuery,
     urlHash,
