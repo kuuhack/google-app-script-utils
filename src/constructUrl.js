@@ -21,7 +21,7 @@ function constructUrl(baseUrl, params) {
       return prev
     }, [])
     .join('&')
-
   Logger.log('constructUrl: ' + `${baseUrl}?${query}`)
+
   return `${baseUrl}?${query}`
 }
