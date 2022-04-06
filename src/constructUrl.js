@@ -2,12 +2,12 @@
  * Usage
  * **************************
  * const myFunction = () => {
- * const baseUrl = 'https://example.com'
- * const params = { id: 1, name: 'fuga' }
- * const url = constructUrl(baseUrl, params)
+ *   const baseUrl = 'https://example.com'
+ *   const params = { id: 1, name: 'fuga' }
+ *   const url = constructUrl(baseUrl, params)
  *
- * console.log(url)
- * // 'https://example.com?id=1&name=fuga'
+ *   console.log(url)
+ *   // 'https://example.com?id=1&name=fuga'
  * }
  * **************************
  */
