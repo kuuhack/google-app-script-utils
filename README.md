@@ -70,6 +70,18 @@ const myFunction = () => {
 }
 ```
 
+### `createArray`
+
+```js
+const myFunction = () => {
+  const sheet = SpreadsheetApp.getActiveSheet()
+  const array = createArray(sheet)
+
+  console.log(array)
+  // [{ hoge: 10, fuga: 20, piyo: 20 }, { hoge: 30, fuga: 40, piyo: 40 }]
+}
+```
+
 ### `constructUrl`
 
 ```js
@@ -80,5 +92,24 @@ const myFunction = () => {
 
   console.log(url)
   // 'https://example.com?id=1&name=fuga'
+}
+```
+
+### `searchRow`
+
+|     | A    | B   | C         |
+| --- | ---- | --- | --------- |
+| 1   | name | age | favorite  |
+| 2   | hoge | 20  | curry     |
+| 3   | fuga | 30  | chocolate |
+| 4   | piyo | 40  | coffee    |
+
+```js
+const myFunction = () => {
+  const sheet = SpreadsheetApp.getActiveSheet()
+  const row = searchRow(sheet, 'fuga')
+
+  console.log(row)
+  // [3]
 }
 ```
