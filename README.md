@@ -126,8 +126,7 @@ const myFunction = () => {
 
 ### `URI.js`
 
-URL parser imported from [URI.js](http://medialize.github.io/URI.js/)
-Please follow the URL below for usage.
+URL parser imported from [URI.js](http://medialize.github.io/URI.js/). Please follow the URL below for usage.
 
 - [CODE](https://github.com/kuuhack/google-apps-script-utils/blob/main/src//urlParser.js)
 - https://medialize.github.io/URI.js/
