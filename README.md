@@ -13,7 +13,17 @@
 
 This repository has some functions to help with Google Apps Script
 
-## Usage
+## Install
+
+```shell
+git clone https://github.com/kuuhack/google-apps-script-utils.git
+cd google-apps-script-utils
+yarn install
+yarn clasp login
+yarn clasp create utils
+```
+
+## Functions
 
 ### `createObjects`, `createValues`
 
