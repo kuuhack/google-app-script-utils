@@ -2,16 +2,16 @@
  * Usage
  * **************************
  * const myFunction = () => {
- *   const uri = new URI("http://www.example.com:8080/files-tmb/1234/abc.png?key=val")
- *   console.log("href = %s", uri.href())
- *   console.log("host = %s", uri.host())
- *   console.log("hostname = %s", uri.hostname())
- *   console.log("origin = %s", uri.origin())
- *   console.log("password = %s", uri.password())
- *   console.log("pathname = %s", uri.pathname())
- *   console.log("port = %s", uri.port())
- *   console.log("protocol = %s", uri.protocol())
- *   console.log("search = %s", uri.search())
+ *   const uri = new URI('http://www.example.com:8080/files-tmb/1234/abc.png?key=val')
+ *   console.log('href = %s', uri.href())
+ *   console.log('host = %s', uri.host())
+ *   console.log('hostname = %s', uri.hostname())
+ *   console.log('origin = %s', uri.origin())
+ *   console.log('password = %s', uri.password())
+ *   console.log('pathname = %s', uri.pathname())
+ *   console.log('port = %s', uri.port())
+ *   console.log('protocol = %s', uri.protocol())
+ *   console.log('search = %s', uri.search())
  *
  *   // href = http://www.example.com:8080/files-tmb/1234/abc.png?key=val
  *   // host = www.example.com:8080
