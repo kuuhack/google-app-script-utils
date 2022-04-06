@@ -2,12 +2,12 @@
  * Usage
  * **************************
  * const myFunction = () => {
- * const sheet = SpreadsheetApp.getActiveSheet()
- * const values = sheet.getDataRange().getValues()
- * const object = createObject(values)
+ *   const sheet = SpreadsheetApp.getActiveSheet()
+ *   const values = sheet.getDataRange().getValues()
+ *   const object = createObject(values)
  *
- * console.log(object)
- * //  { hoge: 10, fuga: 20, piyo: 20 }
+ *   console.log(object)
+ *   //  { hoge: 10, fuga: 20, piyo: 20 }
  * }
  * **************************
  */
