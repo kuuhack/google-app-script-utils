@@ -1,12 +1,20 @@
 /**
  * Usage
+ *
+ * |     | A    | B   | C         |
+ * | --- | ---- | --- | --------- |
+ * | 1   | name | age | favorite  |
+ * | 2   | hoge | 20  | curry     |
+ * | 3   | fuga | 30  | chocolate |
+ * | 4   | piyo | 40  | coffee    |
+ *
  * **************************
  * const myFunction = () => {
  *   const sheet = SpreadsheetApp.getActiveSheet()
- *   const cell = searchCell(sheet, 'fuga')
+ *   const row = searchRow(sheet, 'fuga')
  *
- *   console.log(cell)
- *   // [1]
+ *   console.log(row)
+ *   // [3]
  * }
  * **************************
  */
