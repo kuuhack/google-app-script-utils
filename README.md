@@ -20,7 +20,8 @@ git clone https://github.com/kuuhack/google-apps-script-utils.git
 cd google-apps-script-utils
 yarn install
 yarn clasp login
-yarn clasp create --title utils
+yarn clasp create --rootDir ./src/ --title utils
+yarn clasp push -f
 ```
 
 ## Functions
