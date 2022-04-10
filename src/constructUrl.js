@@ -18,6 +18,7 @@ function constructUrl(baseUrl, params) {
   const query = Object.keys(p)
     .reduce((prev, cur) => {
       prev.push(`${cur}=${p[cur]}`)
+
       return prev
     }, [])
     .join('&')
