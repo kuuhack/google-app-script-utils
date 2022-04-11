@@ -12,7 +12,7 @@
  * const myFunction = () => {
  *   const sheet = SpreadsheetApp.getActiveSheet()
  *   const values = sheet.getDataRange().getValues()
- *   const objects = createObjects_(values)
+ *   const objects = createObjects(values)
  *
  *   console.log(objects)
  *   //   [ { name: 'hoge', age: 20, favorite: 'curry' },
@@ -22,7 +22,7 @@
  *   console.log(objects.filter((object) => object.name === 'fuga')[0])
  *   //  { name: 'fuga', age: 30, favorite: 'chocolate' }
  *
- *   const newValues = createValues_(objects)
+ *   const newValues = createValues(objects)
  *
  *   console.log(newValues)
  *   //   [ [ 'name', 'age', 'favorite' ],
