@@ -1,7 +1,8 @@
 /**
- * Usage
- * **************************
- * const myFunction = () => {
+ * ## Usage
+ *
+ * ```js
+ * function myFunction() {
  *   const uri = new URI('http://www.example.com:8080/files-tmb/1234/abc.png?key=val')
  *   console.log('href = %s', uri.href())
  *   console.log('host = %s', uri.host())
@@ -23,7 +24,7 @@
  *   // protocol = http
  *   // search = ?key=val
  * }
- * **************************
+ * ```
  */
 
 eval(
@@ -116,31 +117,4 @@ function urlIsIp(url) {
   console.log(`urlIsIp = %s`, bool)
 
   return
-}
-
-// Test function to ensure that each of the above functions do what they are supposed to do.
-function testURI() {
-  const url =
-    'https://example.com/some/test/page.html?this-is=helpful&it=works#rad'
-  const funcs = [
-    urlProtocol,
-    urlHostname,
-    urlDirectory,
-    urlPath,
-    pathArray,
-    urlFilename,
-    urlQuery,
-    urlHash,
-    urlIsUrl,
-    urlIsIp,
-  ]
-
-  // Check that each function returns the expected value
-  funcs.map((test) => {
-    test(url)
-  })
-
-  // Extra check to see that the urlQuery function works with a query parameter argument
-  // console.log(`${urlQuery} = %s`, urlQuery(url, 'it'))
-  urlQuery(url, 'it')
 }
