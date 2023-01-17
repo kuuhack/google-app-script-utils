@@ -4,7 +4,7 @@
  * ## Usage
  *
  * ```js
- * const myFunction = () => {
+ * function myFunction {
  *   const string = 'ｱｼﾀﾊｲｲﾃﾝｷｶﾅ､ﾌﾞｰｳﾞｰ１２３ａｂＣ'
  *   const result = normalizeString(string)
  *
