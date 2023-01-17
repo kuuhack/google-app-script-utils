@@ -1,7 +1,9 @@
 /**
  * @param {string} str
- * Usage
- * **************************
+ *
+ * ## Usage
+ *
+ * ```js
  * const myFunction = () => {
  *   const string = 'ｱｼﾀﾊｲｲﾃﾝｷｶﾅ､ﾌﾞｰｳﾞｰ１２３ａｂＣ'
  *   const result = normalizeString(string)
@@ -9,7 +11,7 @@
  *   console.log(result)
  *   // 'アシタハイイテンキカナ、ブーヴー123abC'
  * }
- * **************************
+ * ```
  */
 function normalizeString(str) {
   const kanaMap = {
