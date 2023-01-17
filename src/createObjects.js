@@ -1,5 +1,5 @@
 /**
- * Usage
+ * ## Usage
  *
  * |     | A    | B   | C         |
  * | --- | ---- | --- | --------- |
@@ -8,7 +8,7 @@
  * | 3   | fuga | 30  | chocolate |
  * | 4   | piyo | 40  | coffee    |
  *
- * ***********************************
+ * ```js
  * const myFunction = () => {
  *   const sheet = SpreadsheetApp.getActiveSheet()
  *   const values = sheet.getDataRange().getValues()
@@ -33,9 +33,8 @@
  *   console.log(newValues.filter((record) => record.includes('fuga'))[0])
  *   //  [ 'fuga', 30, 'chocolate' ]
  * }
- * ***********************************
+ * ```
  */
-
 function createObjects(values) {
   const headers = values.shift()
   const objects = []
