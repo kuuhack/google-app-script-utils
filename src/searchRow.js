@@ -1,5 +1,5 @@
 /**
- * Usage
+ * ## Usage
  *
  * |     | A    | B   | C         |
  * | --- | ---- | --- | --------- |
@@ -8,7 +8,7 @@
  * | 3   | fuga | 30  | chocolate |
  * | 4   | piyo | 40  | coffee    |
  *
- * **************************
+ * ```js
  * const myFunction = () => {
  *   const sheet = SpreadsheetApp.getActiveSheet()
  *   const row = searchRow(sheet, 'fuga')
@@ -16,7 +16,7 @@
  *   console.log(row)
  *   // [3]
  * }
- * **************************
+ * ```
  */
 
 function searchRow(sheet, value) {
