@@ -9,7 +9,7 @@
  * | 4   | piyo | 40  | coffee    |
  *
  * ```js
- * const myFunction = () => {
+ * function myFunction {
  *   const sheet = SpreadsheetApp.getActiveSheet()
  *   const values = sheet.getDataRange().getValues()
  *   const objects = createObjects(values)
