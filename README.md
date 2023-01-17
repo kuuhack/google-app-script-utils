@@ -1,13 +1,8 @@
 # google-apps-script-utils
 
-<p>
-  <a href="https://github.com/kuuhack/google-apps-script-utils/actions/workflows/main.yml">
-    <img src="https://github.com/kuuhack/google-apps-script-utils/actions/workflows/main.yml/badge.svg" alt="Deployment">
-  </a>
-  <a href="https://github.com/kuuhack/google-apps-script-utils/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/kuuhack/google-apps-script-utils" alt="MIT License">
-  </a>
-</p>
+[![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
+[![Develpment](https://github.com/kuuhack/google-apps-script-utils/actions/workflows/main.yml/badge.svg)](https://github.com/kuuhack/google-apps-script-utils/actions/workflows/main.yml)
+[![MIT License](https://img.shields.io/github/license/kuuhack/google-apps-script-utils)](https://github.com/kuuhack/google-apps-script-utils/blob/main/LICENSE)
 
 ## Description
 
